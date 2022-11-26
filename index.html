@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puissance 4</title>
+</head>
+<body>
+    <main>
+        <div id="formulaire">
+            <form>
+                <input type="text" id="pseudo_j1">
+                <input type="color" id="color_j1">
+                <input type="text" id="pseudo_j2">
+                <input type="color" id="color_j2">
+                <div id="play" class="btn">JOUER</div>
+            </form>
+        </div>
+        <div class="joueurs">
+            <h1 id="joueur1"></h1>
+            <h1 id="joueur2"></h1>
+        </div>
+        <div id="error_message">Il faut insérer un prénom et les couleur des deux joueurs doivent être différentes</div>
+        <div class="blue">
+            <table id="table">
+            </table>
+        </div>
+        <div id="win_message"></div>
+        <div class="row">
+            <div id="replay" class="btn">RECOMMENCER</div>
+            <div id="quitter" class="btn">quitter</div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
